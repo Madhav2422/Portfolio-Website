@@ -7,7 +7,7 @@ const SingleSkill = ({imgSvg,text}) => {
         <div className='text-white bg-cyan-300 h-[100px] flex items-center justify-center rounded-full  hover:scale-105 transform transition-all duration-500 text-6xl border-4 border-orange-300' >{imgSvg}</div>
         <p className='text-white font-bold ' >{text}</p>
       </div>
-      <div></div>
+      <div className='w-[100px] h-[200px] bg-orange-300 absolute top-[50px] -z-10' ></div>
     </div>
   )
 }
