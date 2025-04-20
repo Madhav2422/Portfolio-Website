@@ -16,7 +16,10 @@ const SkillsMain = () => {
    
       <div className="block lg:hidden mt-16">
         <AllSkillsSm />
-      </div>
+     </div>
+
+     
+
     </div>
   );
 };
