@@ -4,6 +4,7 @@ import HeroMain from './components/heroSection/HeroMain'
 import SubHeroSection from './components/heroSection/subHeroSection'
 import AboutMeMain from './components/aboutMe/AboutMeMain'
 import SkillsMain from './components/skillsSection/SkillsMain'
+import ExperienceMain from './components/experienceSection/ExperienceMain'
 
 
 export default function Home() {
@@ -14,7 +15,7 @@ export default function Home() {
       <SubHeroSection/>
       <AboutMeMain/>
       <SkillsMain/>
-     
+      <ExperienceMain/>     
     </main>
   )
 }
