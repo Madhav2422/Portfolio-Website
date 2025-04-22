@@ -70,7 +70,7 @@ const HeroMain = () => {
 
           {/* Tech skills */}
           <div className='lg:w-1/2 mt-12 lg:mt-0 animate-fade-in'>
-            <h3 className='text-xl font-semibold mb-6 text-center lg:text-left text-gray-300'>
+            <h3 className='text-xl font-semibold mb-6 text-center lg:text-left text-white'>
               My Technical Expertise
             </h3>
             <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 gap-4'>

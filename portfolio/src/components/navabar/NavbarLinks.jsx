@@ -1,7 +1,6 @@
 import React from 'react'
 
 const NavbarLinks = ({ menuOpen, setMenuOpen }) => {
-
   const links = [
     { link: "About Me", section: "about" },
     { link: "Skills", section: "skills" },
@@ -15,7 +14,7 @@ const NavbarLinks = ({ menuOpen, setMenuOpen }) => {
       flex-col lg:flex-row 
       ${menuOpen ? 'absolute' : 'hidden'} lg:flex 
       top-[120%] lg:top-0 left-[50%] lg:left-0 -translate-x-[50%] lg:translate-x-0 
-      text-xl lg:text-md bg-black backdrop-blur-lg w-full lg:w-auto 
+      text-xl lg:text-md bg-[#0f172a] backdrop-blur-lg w-full lg:w-auto 
       rounded-xl lg:rounded-none z-10`}>
 
       {
@@ -24,7 +23,7 @@ const NavbarLinks = ({ menuOpen, setMenuOpen }) => {
             <a 
               className='text-white cursor-pointer hover:text-cyan-200 transition-all duration-500'
               href={`#${link.section}`}
-              onClick={() => setMenuOpen(false)} // auto-close on click
+              onClick={() => setMenuOpen(false)}
             >
               {link.link}
             </a>

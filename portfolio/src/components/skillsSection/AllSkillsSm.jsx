@@ -6,6 +6,7 @@ import { RiTailwindCssFill } from 'react-icons/ri';
 import { DiMongodb } from 'react-icons/di';
 import { SiSpringboot } from 'react-icons/si';
 import { TbSql } from 'react-icons/tb';
+import { FaDocker } from "react-icons/fa";
 
 const skills = [
   { skill: "HTML", icon: FaHtml5 },
@@ -18,6 +19,10 @@ const skills = [
   { skill: "SQL", icon: TbSql },
   { skill: "Java", icon: FaJava },
   { skill: "SpringBoot", icon: SiSpringboot },
+  {
+    skill: "Docker",
+    icon: FaDocker,
+  }
 ];
 
 const AllSkillsSm = () => {

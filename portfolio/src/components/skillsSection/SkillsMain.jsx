@@ -1,26 +1,17 @@
 import React from 'react';
 import SkillsText from './SkillsText';
 import AllSkills from './AllSkills';
-import AllSkillsSm from './AllSkillsSm';
 
 const SkillsMain = () => {
   return (
-    <div id='skills' className="max-w-[1200px] px-4 mx-auto min-h-screen">
-      <SkillsText />
-
-     
-      <div className="hidden lg:block mt-16">
-        <AllSkills />
+    <section id='skills' className="py-12 px-4">
+      <div className="max-w-4xl mx-auto">
+        <SkillsText />
+        <div className="mt-8">
+          <AllSkills />
+        </div>
       </div>
-
-   
-      <div className="block lg:hidden mt-16">
-        <AllSkillsSm />
-     </div>
-
-     
-
-    </div>
+    </section>
   );
 };
 
