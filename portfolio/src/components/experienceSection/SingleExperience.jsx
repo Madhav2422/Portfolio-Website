@@ -1,8 +1,17 @@
 import React from 'react'
 
-const SingleExperience = () => {
+const SingleExperience = ({experience}) => {
   return (
-    <div>SingleExperience</div>
+    <div  className="md:h-[350px] md:w-[240px] sm:h-auto sm:w-full border-2 border-x-orange-200 border-dashed rounded-2xl mt-12 p-4" >
+      <p className="font-bold text-white" >{experience.job}</p>
+      <p className="text-white" >{experience.company}</p>
+      <p className="text-white" >{experience.date}</p>
+      <ul className="list-disc mt-4 pl-4">
+        {experience.responsibilities.map((resp, index) => {
+          return <li key={index}>{resp}</li>;
+        })}
+      </ul>
+    </div>
   )
 }
 
