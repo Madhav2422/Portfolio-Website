@@ -6,6 +6,7 @@ import AboutMeMain from './components/aboutMeSection/AboutMeMain'
 import SkillsMain from './components/skillsSection/SkillsMain'
 import ExperienceMain from './components/experienceSection/ExperienceMain'
 import ProjectsMain from './components/projectsSection/ProjectsMain'
+import ContactMeMain from './components/ContactMeSection/ContactMeMain'
 
 
 export default function Home() {
@@ -17,7 +18,8 @@ export default function Home() {
       <AboutMeMain/>
       <SkillsMain/>
       <ExperienceMain/> 
-      <ProjectsMain/>    
+      <ProjectsMain/>
+      <ContactMeMain/>    
     </main>
   )
 }
